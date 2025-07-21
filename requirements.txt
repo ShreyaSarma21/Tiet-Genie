@@ -1,0 +1,17 @@
+faiss-cpu
+fpdf2
+langchain
+langchain-community
+langchain-together
+langchain_community
+langchain_together
+Pillow
+pypdf
+python-docx
+python-dotenv
+python-pptx
+sentence-transformers
+streamlit
+torch
+transformers
+unstructured
