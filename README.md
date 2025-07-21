@@ -1,102 +1,34 @@
-# 🧠 TIET-GENIE
+# Tiet-Genie 🤖
 
-**Empowering Smarter Decisions Through Intelligent Knowledge Access**
+Tiet-Genie is an AI-powered assistant built using LangChain, Streamlit, and Together AI to help students of Thapar Institute quickly retrieve information from academic regulations, rules, and uploaded lecture materials.
 
-![Last Commit](https://img.shields.io/github/last-commit/UrjaSahni/Tiet-Genie)
-![Language](https://img.shields.io/badge/python-100%25-blue)
-![Languages](https://img.shields.io/badge/languages-1-informational)
+## 🔍 Features
 
----
+- 📎 Upload your PDFs, DOCX, PPTX, TXT, or Markdown files
+- 💬 Ask natural language questions about uploaded content
+- 📖 Built-in access to academic documents
+- 🧠 Uses Sentence Transformers + FAISS for semantic search
+- 🤖 Powered by `deepseek-ai/DeepSeek-V3` via Together API
+- 📤 Export chat history as PDF or TXT
 
-## 🚀 Overview
+## 🚀 Tech Stack
 
-Tiet-Genie is an AI-powered knowledge assistant tailored for TIET, enabling efficient document ingestion, semantic search, and conversational AI. It provides an interactive interface for uploading diverse files, retrieving relevant content, and generating contextual responses — all while maintaining chat history and export options.
+- Python, Streamlit
+- LangChain
+- HuggingFace Sentence Transformers
+- FAISS
+- Together API
+- PDF & DOCX parsing
 
-### 💡 Why Tiet-Genie?
+## ✨ Demo
 
-This project simplifies complex document management and knowledge retrieval through AI. Core features include:
+Deployed on [Streamlit Cloud](https://share.streamlit.io/...)  
+*(Add your link after deployment)*
 
-- 🧠 **Lightbulb**: *Intelligent document ingestion and semantic search* — upload and query various file formats with ease.
-- 🚀 **Rocket**: *Conversational AI with context retention* — maintain history for meaningful interactions.
-- 🌐 **Globe**: *Vector similarity search + large language models* — delivers accurate and context-aware results.
-- ✨ **Sparkles**: *Export capabilities & user-friendly UI* — export answers and interact via a smooth interface.
-- 🔍 **Magnifying glass**: *Core connectivity* — bridges document processing with AI modules seamlessly.
+## 👩‍💻 Author
 
----
-
-## 🛠️ Built With
-
-- ![Markdown](https://img.shields.io/badge/Markdown-Docs-informational)
-- ![Streamlit](https://img.shields.io/badge/Streamlit-UI-red)
-- ![LangChain](https://img.shields.io/badge/LangChain-Retriever-blue)
-- ![Python](https://img.shields.io/badge/Python-Backend-blue)
+Developed and maintained by **Shreya Sarma**
 
 ---
 
-## 📚 Table of Contents
-
-- [Overview](#-overview)
-- [Getting Started](#-getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Testing](#testing)
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-Ensure the following are installed:
-
-- **Programming Language**: Python (≥3.8 recommended)
-- **Package Manager**: pip
-
----
-
-### 🧩 Installation
-
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/UrjaSahni/Tiet-Genie
-```
-
-2. **Navigate to the directory**
-
-```bash
-cd Tiet-Genie
-```
-
-3. **Install dependencies**
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-### 🧪 Usage
-
-Run the app using:
-
-```bash
-python {entrypoint}
-```
-
-> Replace `{entrypoint}` with the actual Python script name, e.g., `main.py`.
-
----
-
-### 🧫 Testing
-
-The project uses `pytest`. Run tests with:
-
-```bash
-pytest
-```
-
----
-
-
+Feel free to ⭐️ the repo if you find it useful!
